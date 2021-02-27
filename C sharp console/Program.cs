@@ -16,34 +16,52 @@ namespace C_sharp_console
 {
     class Program
     {
-        private static char Cipher(char ch, int key)
+        static string funnyString(string s)
         {
-            if (!char.IsLetter(ch))
-                return ch;
+            char[] chars = s.ToArray();
+            
+            byte[] bytesString = Encoding.ASCII.GetBytes(s);
+            Array.Reverse(chars);
+            int[] diffString = new int[chars.Length-1];
+            int[] diffReverseString = new int[chars.Length - 1];
+            string reverseString = new string(chars);
+            byte[] bytesReverseString = Encoding.ASCII.GetBytes(reverseString);
+            //int max_diff = bytesString[1] - bytesString[0];
+            for (int i=0;i<bytesString.Length-1;i++)
+            {
+                diffString[i]= Math.Abs(bytesString[i + 1] - bytesString[i]);
+            }
+            for (int i = 0; i < bytesReverseString.Length - 1; i++)
+            {
+                diffReverseString[i] = Math.Abs(bytesReverseString[i + 1] - bytesReverseString[i]);
+            }
+           if(diffString.SequenceEqual(diffReverseString))
+            {
+                return "Funny";
+            }
+            else
+            {
+                return "Not Funny";
+            }
+            //return reverseString;
 
-            char offset = char.IsUpper(ch) ? 'A' : 'a';
-            return (char)((((ch + key) - offset) % 26) + offset);
-        }
-        static string caesarCipher(string s, int k)
-        {
-            string output = string.Empty;
-
-            foreach (char ch in s)
-                output += Cipher(ch, k);
-
-            return output;
         }
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter the string");
+           
+          // Console.WriteLine("Please enter the string");
 
-            string s = Console.ReadLine();
-            int k = Convert.ToInt32(Console.ReadLine());
+            int q = Convert.ToInt32(Console.ReadLine());
 
-            string result = caesarCipher(s, k);
+            for (int qItr = 0; qItr < q; qItr++)
+            {
+                string s = Console.ReadLine();
 
-            Console.WriteLine(result);
+                string result = funnyString(s);
+
+                Console.WriteLine(result);
+            }
         }
     }
 }
