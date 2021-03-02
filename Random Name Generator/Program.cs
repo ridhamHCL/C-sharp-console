@@ -9,17 +9,22 @@ namespace Random_Name_Generator
         static void Main(string[] args)
         {
  
-            List<string> nameList = new List<string> { "Ridham", "Meet", "Dhvanish", "Darshan" ,"Sachin","Parth"};
+            List<string> nameList = new List<string> { "Ridham", "Roger", "Jay" ,"Aayushi","Chris","Ankit"};
+            Console.WriteLine("Entered Names:");
+            foreach (string s in nameList)
+            Console.WriteLine(s);
             for (int i = 0; i < nameList.Count; i++)
             {
                 string temp = nameList[i];
                 Random ran = new Random();
-                int randomIndex = ran.Next(i, nameList.Count);
-                nameList[i] = nameList[randomIndex];
-                nameList[randomIndex] = temp;
+                int ranInd = ran.Next(i, nameList.Count);
+                nameList[i] = nameList[ranInd];
+                nameList[ranInd] = temp;
             }
-            foreach (string a in nameList)
-                Console.WriteLine(a);
+
+            Console.WriteLine("\n Shuffled List:");
+            foreach (string s in nameList)
+            Console.WriteLine(s);
 
         }
     }
