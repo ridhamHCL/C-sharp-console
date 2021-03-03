@@ -29,11 +29,11 @@ namespace C_sharp_console
             //int max_diff = bytesString[1] - bytesString[0];
             for (int i=0;i<bytesString.Length-1;i++)
             {
-                diffString[i]= Math.Abs(bytesString[i + 1] - bytesString[i]);
+                diffString[i]= Math.Abs(bytesString[i + 1] - bytesString[i]); //o(n)
             }
             for (int i = 0; i < bytesReverseString.Length - 1; i++)
             {
-                diffReverseString[i] = Math.Abs(bytesReverseString[i + 1] - bytesReverseString[i]);
+                diffReverseString[i] = Math.Abs(bytesReverseString[i + 1] - bytesReverseString[i]); //0(n)
             }
            if(diffString.SequenceEqual(diffReverseString))
             {
@@ -45,6 +45,7 @@ namespace C_sharp_console
             }
             //return reverseString;
 
+           
         }
 
         static void Main(string[] args)
