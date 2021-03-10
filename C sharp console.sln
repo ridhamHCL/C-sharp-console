@@ -13,15 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertsionSort", "Insertsio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Random Name Generator", "Random Name Generator\Random Name Generator.csproj", "{D0A4D536-4A65-4C4B-A649-ED79D0E5518B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Left rotation without the help of List", "Left rotation without the help of List\Left rotation without the help of List.csproj", "{2A681E56-D212-410E-93BB-E9CB6F612BCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Left rotation without the help of List", "Left rotation without the help of List\Left rotation without the help of List.csproj", "{2A681E56-D212-410E-93BB-E9CB6F612BCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparse Array", "Sparse Array\Sparse Array.csproj", "{A024F236-5691-49F8-920A-61E58B9759C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparse Array", "Sparse Array\Sparse Array.csproj", "{A024F236-5691-49F8-920A-61E58B9759C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pangrams", "Pangrams\Pangrams.csproj", "{9A8300F6-268B-4900-8427-7B2494C80048}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pangrams", "Pangrams\Pangrams.csproj", "{9A8300F6-268B-4900-8427-7B2494C80048}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weighted Uniform Strings", "Weighted Uniform Strings\Weighted Uniform Strings.csproj", "{12847E6B-07D9-4AF5-8227-939F41E09AC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weighted Uniform Strings", "Weighted Uniform Strings\Weighted Uniform Strings.csproj", "{12847E6B-07D9-4AF5-8227-939F41E09AC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classExample", "classExample\classExample.csproj", "{0C9D1DA5-B528-4AA8-813B-22CFC6EF9A03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classExample", "classExample\classExample.csproj", "{0C9D1DA5-B528-4AA8-813B-22CFC6EF9A03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "abstractExample", "..\Users\ridham.doshi\source\repos\classExcercises\abstractExample\abstractExample.csproj", "{51F133A8-6E75-46E8-A683-CB723DB7C7EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{0C9D1DA5-B528-4AA8-813B-22CFC6EF9A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C9D1DA5-B528-4AA8-813B-22CFC6EF9A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C9D1DA5-B528-4AA8-813B-22CFC6EF9A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F133A8-6E75-46E8-A683-CB723DB7C7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F133A8-6E75-46E8-A683-CB723DB7C7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F133A8-6E75-46E8-A683-CB723DB7C7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F133A8-6E75-46E8-A683-CB723DB7C7EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
