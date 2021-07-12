@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31423.177
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funny String", "C sharp console\Funny String.csproj", "{1DD9E804-A0DF-474C-9F03-B0BA47F8C518}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classExample", "classExample\classExample.csproj", "{0C9D1DA5-B528-4AA8-813B-22CFC6EF9A03}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "abstractExample", "..\Users\ridham.doshi\source\repos\classExcercises\abstractExample\abstractExample.csproj", "{51F133A8-6E75-46E8-A683-CB723DB7C7EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alic and Bob", "Alic and Bob\Alic and Bob.csproj", "{D112AE56-1062-48B8-8B8D-4F89C0E3DE60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{51F133A8-6E75-46E8-A683-CB723DB7C7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51F133A8-6E75-46E8-A683-CB723DB7C7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51F133A8-6E75-46E8-A683-CB723DB7C7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D112AE56-1062-48B8-8B8D-4F89C0E3DE60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D112AE56-1062-48B8-8B8D-4F89C0E3DE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D112AE56-1062-48B8-8B8D-4F89C0E3DE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D112AE56-1062-48B8-8B8D-4F89C0E3DE60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
